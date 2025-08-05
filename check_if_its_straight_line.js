@@ -15,8 +15,8 @@ var checkStraightLine = function (coordinates) {
       is_y_same = false;
     }
 
-    console.log("X",is_x_same,coordinates[0][0], coordinates[i][0] )
-    console.log("Y", is_y_same, coordinates[0][1],  coordinates[i][1])
+    // console.log("X",is_x_same,coordinates[0][0], coordinates[i][0] )
+    // console.log("Y", is_y_same, coordinates[0][1],  coordinates[i][1])
   }
 
   if (is_x_same === true || is_y_same === true) {
