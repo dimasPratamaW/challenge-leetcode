@@ -43,4 +43,13 @@ var mergeTwoLists = function (list1, list2) {
 };
 
 
-mergeTwoLists(l1, l2);
+var prevList= function(list1){
+  while(list1){
+  list1 = list1.next
+  console.log(list1.next)
+  }
+}
+
+
+console.log(mergeTwoLists(l1, l2));
+prevList(l1);
