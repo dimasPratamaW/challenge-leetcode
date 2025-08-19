@@ -68,7 +68,7 @@ var alternate_add_linked_list = function (l1,l2){
   var extra = 0;
 
   while(l1 !== null || l2!== null||extra !== 0){
-    let val1 = l1? l1.val : 0;
+    let val1 = l1? l1.val : 0; // need to store the value in some variable because u cant overwrite with just value
     let val2 = l2? l2.val : 0;
 
 
